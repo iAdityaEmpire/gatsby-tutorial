@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
-    title: "My First Gatsby Site",
+    title: "Codivate Blog",
   },
   plugins: [
       "gatsby-plugin-gatsby-cloud",
@@ -16,4 +16,7 @@ module.exports = {
       },
       "gatsby-plugin-mdx",
   ],
+    flags: {
+        FAST_DEV: true,
+    }
 };
